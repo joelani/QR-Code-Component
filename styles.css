@@ -1,0 +1,74 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+body{  
+    background-color: hsl(212, 45%, 89%);
+    max-width: 375px;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.card{
+    width: 315px;
+    max-width: 315px;
+    height: 484px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.5);
+}
+.image{
+  width: 280px;
+  height: 280px;
+  border-radius: 15px;
+background: url(images/image-qr-code.png) lightgray 50% / cover no-repeat;
+}
+.content h2{
+    min-width: 254px;
+    color: #1F3251;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+ .content p{
+    min-width: 243px;;
+    color: #7B879D;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.attribution {
+    margin-top: 7px;
+    font-family: "Outfit", sans-serif;
+     font-size: 1.2rem;
+      text-align: center;
+     }
+    .attribution a {
+         color: #1F3251;
+         font-family: "Outfit", sans-serif;
+         font-style: normal;
+         font-weight: 500;
+         }
+    
